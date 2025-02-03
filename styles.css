@@ -1,0 +1,29 @@
+/* ...existing code... */
+
+.project {
+    /* Add necessary styles for the project card */
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    /* Ensure the card content is contained within the project card */
+    display: flex;
+    flex-direction: column;
+}
+
+.texts {
+    /* Add necessary styles for the text content */
+    margin-bottom: 16px;
+}
+
+.buttons {
+    /* Add necessary styles for the buttons */
+    display: flex;
+    gap: 8px;
+}
+
+/* ...existing code... */

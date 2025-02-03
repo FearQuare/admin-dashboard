@@ -69,6 +69,8 @@ table {
     grid-column: 2 / 7;
     grid-row: 2 / 6;
     background-color: #F4F6F9;
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(6, 1fr);
 }
 
 .sidebar-header {
@@ -210,4 +212,57 @@ table {
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
+}
+
+.main .projects {
+    grid-column: 1 / 5;
+    grid-row: 1 / 9;
+    margin: 1rem;
+}
+
+.projects .content {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.projects .project {
+    width: 22rem;
+    height: 11rem;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    box-shadow: #afb0b2 5px 5px 10px;
+    display: flex; /* Ensure the project card uses flexbox */
+    flex-direction: row; /* Align children in a row */
+}
+
+.project .style {
+    height: 100%; /* Ensure the style div takes full height */
+    width: 3%;
+    background-color: #007BFF;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 97%; /* Ensure the card content takes the remaining width */
+}
+
+.texts {
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
 }
