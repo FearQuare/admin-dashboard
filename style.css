@@ -168,12 +168,13 @@ table {
     margin-left: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; /* Ensure vertical centering */
 }
 
 .bottom .buttons {
     display: flex;
-    align-items: center;
+    align-items: center; /* Ensure vertical centering */
+    justify-content: center; /* Center the buttons horizontally */
     height: 100%;
     gap: 1rem;
     margin-right: 1rem;
