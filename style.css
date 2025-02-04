@@ -266,3 +266,32 @@ table {
     gap: 0.5rem;
     justify-content: flex-end;
 }
+
+.announcements {
+    grid-column: 5 / 7;
+    grid-row: 1 / 5;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    max-width: 23rem;
+}
+
+.announcements .content {
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    padding: 1rem;
+    font-weight: 300;
+    padding: 2rem;
+}
+
+.announcements .content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.thin-line {
+    border: none;
+    border-top: 1px solid #ccc; /* Adjust the color and thickness as needed */
+    margin: 1rem 0; /* Adjust the margin as needed */
+}
